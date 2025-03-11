@@ -32,7 +32,7 @@ history = 100000
 working_directory = "C:\\Work"
 
 [colors.primary]
-background = '#1A2137'
+background = '#1d2130'
 foreground = '#E7EBF6'
 
 [colors.cursor]
