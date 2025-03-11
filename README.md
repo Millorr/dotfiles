@@ -1,13 +1,15 @@
-= Installation steps
+# Installation steps
 
-== Windows
+## Windows
 
-=== Alacritty
+### Alacritty
+
 1. Install fonts in `FiraCode`
 2. Install [alacritty](https://alacritty.org)
 3. Copy `alacritty` folder to `%appdata%`
 
-=== NeoVim
+### NeoVim
+
 1. Install [Neovim](https://neovim.io/)
 2. Install [GnuMake](https://gnuwin32.sourceforge.net/packages/make.htm)
 3. Install [Mingw Builds](https://github.com/niXman/mingw-builds-binaries/releases)
@@ -15,7 +17,7 @@
 3. Copy `nvim` folder to `%appdata%\..\Local`
 4. Run `nvim` and use `TSInstall all`
 
-== Linux
+## Linux
 
 1. Install [GNU Stow](https://www.gnu.org/software/stow/)
   Mac:      brew install stow
