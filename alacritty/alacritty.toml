@@ -14,11 +14,50 @@ family = "FiraCode Nerd Font"
 [font.normal]
 family = "FiraCode Nerd Font"
 
-[window.padding]
-x = 0
-y = 0
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+
+[scrolling]
+history = 100000
 
 [general]
+working_directory = "C:\Work"
 
-live_config_reload = true
-import = ["~/.config/alacritty/colors/colors.toml"]
+[colors.primary]
+background = '#1A2137'
+foreground = '#E7EBF6'
+
+[colors.cursor]
+text = '#FFFFFF'
+cursor = '#BCC6E3'
+
+[colors.dim]
+black = '#2E3859'
+red = '#FB80AA'
+green = '#39BD14'
+yellow = '#F49437'
+blue = '#1F6DF7'
+magenta = '#BD97FC'
+cyan = '#28C8B1'
+white = '#BCC6E3'
+
+[colors.normal]
+black = '#2E3859'
+red = '#FB80AA'
+green = '#39BD14'
+yellow = '#F49437'
+blue = '#1F6DF7'
+magenta = '#BD97FC'
+cyan = '#28C8B1'
+white = '#BCC6E3'
+
+[colors.bright]
+black = '#586899'
+red = '#FDA7C1'
+green = '#64D464'
+yellow = '#FCB173'
+blue = '#36ACFC'
+magenta = '#CEB5FD'
+cyan = '#30E1C7'
+white = '#F5F6FB'
