@@ -68,3 +68,9 @@ blue = '#36ACFC'
 magenta = '#CEB5FD'
 cyan = '#30E1C7'
 white = '#F5F6FB'
+
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control", action = "Paste" },
+]
+

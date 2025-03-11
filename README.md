@@ -13,19 +13,25 @@
 1. Install [Neovim](https://neovim.io/)
 2. Install [GnuMake](https://gnuwin32.sourceforge.net/packages/make.htm)
 3. Install [Mingw Builds](https://github.com/niXman/mingw-builds-binaries/releases)
-> Ensure `make` and `gcc` are in Path
-3. Copy `nvim` folder to `%appdata%\..\Local`
-4. Run `nvim` and use `TSInstall all`
+4. Install [StyLua](https://github.com/JohnnyMorganz/StyLua/releases)
+5. Install [Prettier](https://prettier.io/docs/install)
+> Ensure the installed programs are in Path
+6. Copy `nvim` folder to `%appdata%\..\Local`
+7. Run `nvim` and use `TSInstall all`
 
 ## Linux
 
-1. Install [GNU Stow](https://www.gnu.org/software/stow/)
+1. Install [StyLua](https://github.com/JohnnyMorganz/StyLua/releases)
+2. Install [Prettier](https://prettier.io/docs/install)
+> Ensure the installed programs are in Path
+
+3. Install [GNU Stow](https://www.gnu.org/software/stow/)
   Mac:      brew install stow
   Ubuntu:   apt-get install stow
   Fedora:   yum install stow
   Arch:     pacman -S stow
 
-2. Use `stow` to install the dotfiles you want to use:
+4. Use `stow` to install the dotfiles you want to use:
   cd dotfiles
   stow vim
   stow tmux
