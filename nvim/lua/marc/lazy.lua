@@ -14,10 +14,10 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup(
   {
     rocks = {
-      enabled = false
-    }
+      enabled = false,
+    },
   },
   {
-    import = "marc.plugins"
-  }
+    import = "marc.plugins",
+  },
 })
