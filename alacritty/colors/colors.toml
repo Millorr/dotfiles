@@ -6,6 +6,16 @@ foreground = '#E7EBF6'
 text = '#FFFFFF'
 cursor = '#BCC6E3'
 
+[colors.dim]
+black = '#2E3859'
+red = '#FB80AA'
+green = '#39BD14'
+yellow = '#F49437'
+blue = '#1F6DF7'
+magenta = '#BD97FC'
+cyan = '#28C8B1'
+white = '#BCC6E3'
+
 [colors.normal]
 black = '#2E3859'
 red = '#FB80AA'
