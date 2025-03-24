@@ -68,6 +68,11 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+      ["rust_analyzer"] = function()
+        nvim_lsp["rust_analyzer"].setup({
+          capabilities = capabilities
+        })
+      end,
 		})
 	end,
 }
